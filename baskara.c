@@ -20,7 +20,7 @@ int main() {
     delta = (b * b) - 4 * a * c;
 
     if (delta < 0) {
-        printf("Impossivel calcular");
+        printf("√%f", delta);
         return 0;
     }
 

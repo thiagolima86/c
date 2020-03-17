@@ -16,6 +16,18 @@ int main() {
         printf("Impossivel calcular");
         return 0;
     }
+
+    if (b == 0) {
+        x1 = - (c / a);
+        printf("√%f", x1);
+        return 0;
+    }
+
+    if (c == 0) {
+        x1 = - (b / a);
+        printf("%f", x1);
+        return 0;
+    }
     
     delta = (b * b) - 4 * a * c;
 
